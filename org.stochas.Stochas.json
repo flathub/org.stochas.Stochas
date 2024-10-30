@@ -58,7 +58,8 @@
                 {
                     "type": "git",
                     "url": "https://github.com/surge-synthesizer/stochas.git",
-                    "tag": "v1.3.10"
+                    "tag": "v1.3.12",
+                    "commit": "c49e2a199e68c99235ae54b73612c1ebce45c5ce"
                 },
                 {
                     "type": "file",
