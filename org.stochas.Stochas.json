@@ -1,7 +1,7 @@
 {
     "id": "org.stochas.Stochas",
     "runtime": "org.freedesktop.Platform",
-    "runtime-version": "25.08",
+    "runtime-version": "26.08",
     "sdk": "org.freedesktop.Sdk",
     "command": "Stochas",
     "finish-args": [
@@ -21,7 +21,7 @@
     "add-extensions": {
         "org.freedesktop.LinuxAudio.Plugins.Stochas": {
             "directory": "extensions/Plugins/Stochas",
-            "version": "25.08",
+            "version": "26.08",
             "add-ld-path": "lib",
             "bundle": true,
             "subdirectories": true,
@@ -30,6 +30,7 @@
         }
     },
     "modules": [
+        "shared-modules/appstream/appstream-compose.json",
         {
             "name": "stochas",
             "buildsystem": "cmake-ninja",
